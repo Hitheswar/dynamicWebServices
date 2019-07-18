@@ -1,4 +1,4 @@
-package com.aline.thiru.TestWS;
+package com.aline.soap.WS;
 
 import java.io.File;
 
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.aline.thiru.Xsd.RootClass;
+import com.aline.soap.Xsd.RootClass;
 
 @RestController
 @EnableAutoConfiguration

@@ -1,4 +1,4 @@
-package com.aline.thiru.Xsd;
+package com.aline.soap.Xsd;
 
 import java.io.File;
 
@@ -9,7 +9,7 @@ import org.json.simple.parser.ParseException;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import com.aline.thiru.Xsd.DomUtility;
+import com.aline.soap.Xsd.DomUtility;
 
 @Component
 public class RootClass {

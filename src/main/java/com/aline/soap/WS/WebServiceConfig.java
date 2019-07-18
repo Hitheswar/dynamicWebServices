@@ -1,4 +1,4 @@
-package com.aline.thiru.TestWS;
+package com.aline.soap.WS;
 
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.ApplicationContext;
@@ -36,7 +36,7 @@ public class WebServiceConfig {
 	}
 	@Bean
 	public XsdSchema TestSchema() {
-	  return new SimpleXsdSchema(new FileSystemResource("H:\\webServices\\WebService\\TestWS\\src\\main\\resources\\Test.xsd"));
+	  return new SimpleXsdSchema(new FileSystemResource("H:\\STudy\\GitHub\\Git-Project\\WebServices\\dynamicWebServices\\src\\main\\resources\\Test.xsd"));
 	}
 
 }

@@ -1,4 +1,4 @@
-package com.aline.thiru.TestWS;
+package com.aline.soap.WS;
 
 import java.lang.reflect.InvocationTargetException;
 
