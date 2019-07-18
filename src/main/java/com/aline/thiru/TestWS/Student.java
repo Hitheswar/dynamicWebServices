@@ -1,4 +1,4 @@
-package com.aline.soap.WS;
+package com.aline.thiru.TestWS;
 
 public class Student {
 	
@@ -21,4 +21,9 @@ public class Student {
 	public String toString() {
 		return "Student [id=" + id + ", name=" + name + ", passportNumber=" + passportNumber + "]";
 	}
+	
+	
+	
+	
+
 }

@@ -34,26 +34,6 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		
-		<dependency>
-		    <groupId>com.googlecode.json-simple</groupId>
-		    <artifactId>json-simple</artifactId>
-		    <version>1.1</version>
-		</dependency>
-		
-		<dependency>
-	      <groupId>wsdl4j</groupId>
-	      <artifactId>wsdl4j</artifactId>
-	    </dependency>
-	    
-	    <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
-		<dependency>
-		    <groupId>commons-beanutils</groupId>
-		    <artifactId>commons-beanutils</artifactId>
-		    <version>1.6</version>
-		</dependency>
-	    
-	    
 	</dependencies>
 
 	<build>
@@ -62,25 +42,6 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-			
-			 <plugin>
-			    <groupId>org.codehaus.mojo</groupId>
-			    <artifactId>jaxb2-maven-plugin</artifactId>
-			    <version>1.6</version>
-			    <executions>
-			      <execution>
-			        <id>xjc</id>
-			        <goals>
-			          <goal>xjc</goal>
-			        </goals>
-			      </execution>
-			    </executions>
-			    <configuration>
-			      <schemaDirectory>H:\webServices\WebService\TestWS\src\main\resources</schemaDirectory>
-			      <outputDirectory>${project.basedir}/src/main/java</outputDirectory>
-			      <clearOutputDir>false</clearOutputDir>
-			    </configuration>
-			  </plugin>
 		</plugins>
 	</build>
 

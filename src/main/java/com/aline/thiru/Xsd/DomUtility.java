@@ -1,4 +1,4 @@
-package com.aline.soap.Xsd;
+package com.aline.thiru.Xsd;
 
 import java.io.File;
 
